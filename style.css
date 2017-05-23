@@ -1,0 +1,381 @@
+
+body{
+	background: black;
+	font-family: Verdan, Tahoma, Arial, sans-serif;
+	font-size: 18 px;
+	overflow: auto;
+}
+
+
+ h1, h2, h3, h4, h5, h6
+{
+	text-align: center;
+	padding-left:5%;
+	color: red;
+}
+
+p
+{
+	padding: 2%;
+	color:Black;
+}
+
+img /*body imag*/
+{
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+
+
+
+#wrapper /*all page*/
+
+{
+	margin: 0 auto;
+	max-width: 1020%;
+	width: 100%;
+	
+}
+
+#topmenu 
+{
+	width: 100%;
+	height: auto;
+	background: #f2f2f2;
+	overflow: hidden;
+}
+
+
+
+#topmenu ul li 
+{
+	float: left;
+	font-size:13px;
+	padding: 1.5% 0.1% 0%;
+	list-style-type:none;
+}
+
+#logo_left
+{
+	width:100%;
+	display:center;
+	padding:0.0% 0.5% 0.8%;
+	
+	
+}
+
+#logo_right
+{
+	
+	float:right;
+	padding: 0.0% 0.5% 0.8%;
+}
+
+
+#textstyle
+{
+	height:30px;
+	border-radius:8px:
+}
+
+#button
+{
+	background-color: red;
+	color: red;
+	padding: 7px;
+	border-radius:8px;
+	width:50px;
+	border: 1px solid green;
+}
+
+#clear
+{
+	clear: both;
+}
+
+
+header
+{
+	width: 96%;
+	min-height: 125px;
+	padding: 5px;
+	text-align: center;
+	
+}
+
+nav ul /*background square*/
+{
+	/*margin: 0;*/
+	width:100%;
+	list-style:none;
+	background-color: black;
+	height:41px;
+	padding-left: 50px;
+}
+
+nav ul li /*Edit Home New In...*/
+{
+	float:left;
+	border: 1px solid black;
+	width: 15%;
+}
+
+nav ul li a /* edit menu letters*/
+{
+	background: black;
+	display: block;
+	padding: 5% 12%;
+	font-family: Palatino Linotype;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	text-align:center;
+}
+
+nav ul li a:hover, nav ul li .active a/*adapte en la pantalla*/
+{
+	background-color:red;
+	color: white;
+}
+
+nav a:hover, nav a:active,
+ nav .active  a:link, nav  .active a:visited{
+	background-color:red;------- cursor home new in-------
+	text-shadow:none;
+}
+
+marque
+{
+	width: 100%;
+}
+
+
+.clearfix
+{
+	clear:both;
+}
+
+.left-col
+{
+	width:55%;
+	float: left;
+	margin: 1% 0%;
+	
+}
+
+.sidebar
+{
+	width:30%;
+	/*height:auto;*/
+	float: right;
+	/*margin: 1% 0%;*/
+	
+}
+.off
+{
+	float: left;
+	margin: 1%;
+	width: 100%;
+	height: 200%;
+	padding: 1%;
+}
+
+
+
+
+
+
+
+.section
+{
+	width: 29%;
+	height: 29%;
+	float: left;
+	margin: 2% 2%;
+	text-align: center;
+}
+.button {
+	font-family: Calibri;
+	color: red;
+	background-color: transparent white;
+    position:relative;
+    bottom:100px;
+    right:1px;
+    width:100px;
+    height:30px;
+}
+
+footer
+{
+	background: #a2a6a4;
+	width:100%;
+	overflow:hidden;
+}
+
+#footer a
+{
+	color: white;
+}
+
+#footer a:hover
+{
+	color: yellow;
+	text-decoration:underline;
+}
+
+#footer .section /* space betwen each section */
+{
+	width: 275px;
+	float: left;
+}
+
+#footer .section h5
+{
+	font-family: arial;
+	color: black;
+	font-size: 14px;
+	/*border-bottom: 1px solid black;*/
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+#footer .section ul 
+{
+	list-style-type:none;
+	margin:0;
+	padding;0px;
+}
+
+#footer .section ul li
+{
+	width: 200px;
+	padding:10px 0;
+	
+}
+
+#contact ul li
+{
+	display: inline;
+	height: 50px;
+	
+}
+
+#contact ul li img
+{
+	display: inline;
+	width: 40px;
+	height: 40px;
+	
+}
+
+
+#bottomM ul li 
+{
+	float: left;
+	font-size:13px;
+	padding: 0%;
+	display: inline;
+}
+
+#bottomM  img
+{
+	float: right;
+
+}
+
+
+#wrapper2 
+
+{
+	margin: 0 auto;
+	max-width: 1020%;
+	width: 100%;
+	
+}	
+
+#Bcopy
+{
+	width: 100%;
+	height: auto;
+	background: #f2f2f2;
+	overflow: hidden;
+}
+
+/*............MEDIA........*/
+
+@media screen and (max-width:478px){ /*add another 2 more media*/
+body 
+{
+	font-size:13px;
+}
+	
+@media screen and (max-width:740px){
+nav 
+{
+	width:100%;
+	margin-bottom: 10px;
+}
+	
+nav ul
+{
+	list-style: none;
+	margin: 0 auto;
+	padding-left:0;
+	}
+	
+nav ul li
+{
+	text-align: center;
+	margin-left:0 auto;
+	width:100%;
+	border-top: 1px solid #878E63;
+	border-right: 0px solid #878E63;
+	border-bottom: 1px solid #878E63;
+	border-left: 0px solid #878E63;
+}
+	
+nav ul li a 
+{
+	padding:8px 0;
+	font-size: 16px;
+}
+	
+.lef-col
+{
+	width: 100%;
+		
+}
+	
+.sidebar
+{
+	width: 100%;
+}
+	
+.section
+{
+	float: left;
+	width: 100%;
+	margin: 0%
+}
+
+.paymethod
+{
+	
+}
+
+
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	

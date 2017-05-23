@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+			<title>Sale Search</title>
+			<meta charset="utf-8"/>
+			
+			<link rel="stylesheet" href="style.css" type="text/css" />
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<!---- use these links for the slide imagenes ---->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		    <script src="regexFunctions.js"></script>
+			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+			<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+
+
+<link href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" rel="stylesheet" media="screen">
+  <div class="container">
+    <div class="jumbotron hidden-xs hidden-sm">
+      <h1>Your amazing title here</h1>
+      <p>And, of course, your text too.</p>
+      <p><button class="btn btn-lg btn-success" data-toggle="modal" data-target="#modalOnoff"><span class="fa fa-check"></span> Subscribe</button></p>
+    </div>
+</div>
+<div class="modal fade bs-example-modal-lg" id="modalOnoff" tabindex="-1" role="dialog" aria-labelledby="lbOnoff">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title" id="lbOnoff">Sign In</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <p>Please, enter your credentials:</p>
+            <form>
+              <div class="form-group"><label>Email</label><input name="email" type="text" class="form-control" required="true" placeholder="Email" value=""></div>
+              <div class="form-group"><label>Password</label><input name="passwd" type="password" class="form-control" required="true" placeholder="Password"></div>
+              <div class="form-group"><button class="btn btn-md btn-success btn-block" type='submit'>Sign in</button></div>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <p>Don't have an account yet? Create now!</p>
+            <div class="pull-right">
+              <span class="fa fa-share-alt fa-5x"></span>
+            </div>
+            <ul>
+              <li>Amazing things</li>
+              <li>Awesome stuff</li>
+              <li>and more!</li>
+            </ul>
+            <hr>
+            <a class="btn btn-lg btn-primary btn-block">Sign up</a>
+            <p class="text-center"><span class="text-muted"><small>we'll never spam you! we promise</small></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
